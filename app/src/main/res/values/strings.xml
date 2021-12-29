@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Courthelper</string>
+
+    <string name="buletpoints">
+
+        Help tenants who are in rent arrears avoid eviction \n
+
+        Help tenants identify whether they are eligible for legal aid; \n
+
+        Help guide tenants to find appropriate legal representation if eligible for legal aid; \n
+
+        Help ease the pressure on duty solicitors at local courts; \n\n\n\n
+    </string>
+
+    <string name="button"> Open legalaid</string>
+
+    <string name="button2"> Next </string>
+
+    <string name="whatislegalaid"> Legal aid is the provision of assistance to people who are unable to afford legal representation. </string>
+
+    <string name="legalaid">
+                Please follow the following steps\n\n
+        Start->Housing->You have living in rented accommodation->Eviction-> Check if you qualify financially\n\n</string>
+
+    <string name="hyperlink">Please click to the link to find the eligibility for legal aid <a href="https://www.gov.uk/check-legal-aid"> checklegalaid.com</a>
+    </string>
+
+    <string name="Solicitor1">
+        6A Acre Lane London SW2 5SG\n\n
+        The best way to contact us is by phone or email.
+   </string>
+
+
+    <string name="Solicitor2">
+        Walworth Road London SE11 6SF\n\n
+        The best way to contact us is by drop-in, writing, phone or email.
+    </string>
+
+
+    <string name="Solicitor3">
+        153 Kennington Road, London SW11 6SF\n\n
+        The best way to contact us is by phone, write or email.
+
+   </string>
+
+
+    <string name="Solicitor4">
+        8 Union Street, London SE1 1SZ\n\n
+        The best way to contact us is by email, phone or write.
+    </string>
+
+
+
+    <string name="Solicitor5">
+        2a Melbourne Grove East Dulwich SE22 8PL\n\n
+        The best way to contact us is by email, phone or write.
+    </string>
+
+
+    <string name="Solicitor6">
+        174 Hammersmith Road, London W6 7JP\n\n
+        The best way to contact us is by email, write or phone.
+   </string>
+
+
+    <string name="Solicitor7">
+        137 Camberwell Road, London SE5 0Hf\n\n
+        The Service is generally only available to Southwark residents, and the best way to contact us is by drop-in, writing or phone.
+     </string>
+</resources>

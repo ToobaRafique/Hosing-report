@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".Questionnaire">
+
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:src="@drawable/logo"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="44dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Please answer the following questions and take them to court or find a Solicitors:"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Who is your landlord?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textEt"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="Enter your landlord name..."
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="What is your income?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textNum"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="Enter your income..."
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Do you get any welfare benefits?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textBenefits"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="Welfare benefits..."
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Do you or anyone you live with suffer from any health problems?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textIssue"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="Health problem..."
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Do you have any savings?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textSavings"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="YES or NO..."
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="How much rent do you owe?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textRent"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="Enter owed rent..."
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="How many people live at the property with you?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textPeople"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="People live at your accommodation"
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="How long have you lived at your home?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textTime"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="Living time at your accommodation"
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Is there any disrepair at your home?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <!--EditText: Input text to be saved as pdf file-->
+        <EditText
+            android:id="@+id/textADisrepair"
+            android:layout_width="324dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="start"
+            android:hint="Disrepair at your home"
+            android:inputType="text|textMultiLine"
+            android:minHeight="50dp"
+            android:padding="5dp" />
+
+
+
+        <!--Button:   Saves inputted data as pdf file-->
+        <Button
+            android:id="@+id/saveBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="184dp"
+            android:layout_height="45dp"
+            android:layout_gravity="end"
+            android:drawableLeft="@drawable/ic_baseline_save_24"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="Save PDF" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <Button
+            android:id="@+id/contactBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:drawableLeft="@drawable/ic_baseline_location_searching_24"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="Find a Solicitor" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
